@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+if [ -t 1 ]; then
+  COLOR="always"
+else
+  COLOR="auto"
+fi
+
+"$HOME/.bin/git/branches" --color="$COLOR" | grep "$(git config user.name)"

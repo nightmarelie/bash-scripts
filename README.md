@@ -16,6 +16,9 @@
 [alias]
     example = "!$HOME/.bin/git/example"
     branches = "!$HOME/.bin/git/branches"
+    bs = branches
+    my-branches = "!$HOME/.bin/git/my-branches"
+    mbs = my-branches
 ```
 
 # Dev
